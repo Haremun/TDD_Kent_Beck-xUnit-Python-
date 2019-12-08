@@ -1,6 +1,6 @@
-from WasRun import WasRun
+from Python.WasRun import WasRun
 
 test = WasRun("testMethod")
 print(test.wasRun)
-test.testMethod()
+test.run()
 print(test.wasRun)
