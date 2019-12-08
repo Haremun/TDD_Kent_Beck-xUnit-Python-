@@ -1,12 +1,11 @@
-from Python.TestResult import TestResult
+from src.TestResult import TestResult
 
 
 class TestCase:
     def __init__(self, name):
         self.name = name
 
-    def run(self):
-        result = TestResult()
+    def run(self, result):
         result.testStarted()
         self.setUp()
         try:

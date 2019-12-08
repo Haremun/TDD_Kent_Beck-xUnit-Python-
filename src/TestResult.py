@@ -4,7 +4,7 @@ class TestResult:
         self.errorCount = 0
 
     def testStarted(self):
-        self.runCount = self.runCount = 1
+        self.runCount = self.runCount + 1
 
     def testFailed(self):
         self.errorCount = self.errorCount + 1
